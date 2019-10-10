@@ -1,0 +1,43 @@
+body, html 
+{
+height: 100%;
+margin-left:5%;
+margin-right:5%;
+font-family:Bookman Old Style, Helvetica, sans-serif;
+}
+nav{
+    margin-left:25%;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 246, 246);
+}
+
+.active {
+  background-color:cornflowerblue;
+}  
+footer
+{
+text-align:center;
+/* position:fixed; */
+}
